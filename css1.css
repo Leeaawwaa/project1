@@ -1,0 +1,93 @@
+.searchBox {
+    height: 70px;
+    width: 700px;
+    border: 1px solid orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#search {
+    font-size: 30px;
+    width: 594px;
+    padding: 18px;
+    border: 0px;
+    outline: none;
+    float: left;
+    background-color: #ffffff;
+}
+
+button {
+    width: 70px;
+    height: 100%;
+    border: 0px;
+    background: orange;
+    outline: none;
+    float: right;
+    color: #ffffff;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#boardBtn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    background: none;
+    color: orange;
+}
+
+#loginBtn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
+    top: 65%;
+    left: 40%;
+
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: orange;
+    
+}
+
+#MsBtn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
+    top: 65%;
+    left: 55%;
+
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    color: orange;
+}
+
+.name {
+    color: orange;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
